@@ -1,73 +1,26 @@
-# ![Assessment 1][banner]
+![cover](voorbeeld.png)
+Graph by : [@MBostock](https://github.com/mbostock)<br>
+Customisation by : [@muise001](https://github.com/muise001)
 
-This repository can be forked for [**assessment 1**][a1] of [Frontend 3][fe3]
-at [**@CMDA**][cmda].
+# Assessment 1
 
-## TODO
+Bij deze opdracht konden we kiezen tussen een .json-, een .csv- en een .tsv-bestand. Deze moesten we doormiddel van een zelfgemaakte of een geleende d3 datavisualisatie tonen.
 
-*   [ ] [GitHub Pages](#github-pages)
-*   [ ] [Metadata](#metadata)
-*   [ ] [Workflow](#workflow)
-*   [ ] Replace this document in your fork with your own readme!
+## super langdradige uitleg 
 
-## GitHub Pages
+Als eerst koos ik een heel [lastige grafiek](https://bl.ocks.org/mbostock/3686329aa6e1f5938df8eef12ec353fe). Hij was niet alleen moeilijk door de gecompliceerde code, maar ook omdat de data die hij oorspronkelijk gebruikte in een .csv-bestand zat. Om het mezelf nog moeilijker te maken probeerde ik om hem ook nog eens om te schrijven naar .json. Dit leek een succes. Alle data werd zichtbaar in de console, maar er was geen grafiek te bekennen. Na uren gekloot gaf ik het op. Ik maakte een nieuw mapje aan "assesment 1 poging 2". Dit ging een stuk beter. Ik had een grafiek gekozen die werkte met een .tsv bestand en zorgde ervoor dat ik zelf ook een .tsv-bestand had. Ook hier moest ik eerst een hele tijd zoeken, maar ik kreeg hem aan de praat. Toen eenmaal al m'n data geuploaded was, wilde ik meer. De y-waarden van de balken waren namelijk moeilijk af te lezen. Ik besloot een nieuwe functie toe te voegen.
 
-Set up [GitHub Pages][pages] for this fork through the **Settings** pane.  Use
-the **Master branch** as its source.
+#### De nieuwe functie
 
-## Metadata
+Als extra functionaliteit heb ik toegevoegd dat als je op een balk klikt er rechts-boven in het scherm zowel de x- als y-waarde zichtbaar wordt in grote letters en getallen. Handig voor mensen met slechte ogen :wink:
 
-Edit the **description** and **url** of your repository.  Click on edit above
-the green Clone or download button and fill in your correct information.
+#### veel te veel JavaScript
 
-## Workflow
+Nadat ik klaar was met het toevoegen van de "Data-Disclosure'er Ultimatum 300" a.k.a de extra functionaliteit, kwam ik erachter dat een hele hoop JavaScript code niks deed. Ik heb alle waardes geanalyseerd en verandert. Vaak was dan m'n hele grafiek weg (leermomentje), maar tot mijn verbazing gebeurde er soms helemaal niks. Ik heb geprobeerd al het overtollige JavaScript te verwijderen :angel:
 
-How you go about your project is up to you other than that it must meet the
-given requirements.  The following steps may help to tackle this challenge
-though.
+## bronnen
 
-###### Explore
-
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
-
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
-
-Pick the most enticing data and copy it to your fork.
-
-###### Process
-
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
-
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
-
-###### Review
-
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
-
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
-
-[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
-
-[a1]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#description
-
-[data]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#data
-
-[rubric]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#rubric
-
-[fe3]: https://github.com/cmda-fe3
-
-[cmda]: https://github.com/cmda
-
-[pages]: https://pages.github.com
+* [__De Bar-Chart__](https://bl.ocks.org/mbostock/3885304)
+* [__info over het lezen van data__](http://learnjsdata.com/read_data.html)
+* [__info over het inladen van data__](http://www.knowstack.com/different-ways-of-loading-a-d3js-data/)
+* [__info over json__](https://www.dashingd3js.com/using-json-to-simplify-code)
