@@ -24,4 +24,4 @@ Nadat ik klaar was met het toevoegen van de "Data-Disclosure'er Ultimatum 300" a
 * [__info over het lezen van data__](http://learnjsdata.com/read_data.html)
 * [__info over het inladen van data__](http://www.knowstack.com/different-ways-of-loading-a-d3js-data/)
 * [__info over json__](https://www.dashingd3js.com/using-json-to-simplify-code)
- 
+  
